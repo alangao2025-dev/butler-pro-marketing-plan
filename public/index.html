@@ -107,9 +107,9 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
 <body>
 <header class="hero">
  <div class="wrap">
-  <span class="tag">营销计划 V6 · 2026-11-14 · CMO 办公室 · 计划期 2026-12 至 2027-11 · 已吸收管理层第三次意见</span>
+  <span class="tag">营销计划 V7 · 2026-11-14 · CMO 办公室 · 计划期 2026-12 至 2027-11 · 已吸收管理层第三次意见</span>
   <h1>一人公司与小初创团队的桌面 AI 助理<br>品牌营销计划（战略 · 战术 · 执行 · 控制）</h1>
-  <p class="sub">管理层判断律师细分对初代产品风险过高，改为聚焦“事情特别多、一人多岗、极度追求效率”的人群。本版在<b>自由职业者 / 内容创作者 / 一人公司 / 小规模初创团队</b>中比较，选出细分中的细分：<b>知识服务型一人公司（OPC）创始人</b>，并以 <b>3–10 人初创团队</b>作为团队版的扩展。沿用管理层已认可的设定：预算 <b>¥<span class="dyn" data-v="B" data-f="int">20,000</span></b>、年付 499 / 999 / 1,999、前期目标月营收 <b>¥<span class="dyn" data-v="target" data-f="int">500,000</span></b>、品牌不用“管家”。预算和全部假设可调，全文金额联动。数据用 crawler 高级查询采集五轮，并纳入头部咨询公司的中国消费者洞察报告，来源见附录 A。</p>
+  <p class="sub">管理层判断律师细分对初代产品风险过高，改为聚焦“事情特别多、一人多岗、极度追求效率”的人群。本版在<b>自由职业者 / 内容创作者 / 一人公司 / 小规模初创团队</b>中比较，选出细分中的细分：<b>知识服务型一人公司（OPC）创始人</b>，并以 <b>3–10 人初创团队</b>作为团队版的扩展。沿用管理层已认可的设定：预算 <b>¥<span class="dyn" data-v="B" data-f="int">20,000</span></b>、<b>月付</b> 499 / 999 / 1,999、前期目标月营收 <b>¥<span class="dyn" data-v="target" data-f="int">500,000</span></b>、品牌不用“管家”。预算和全部假设可调，全文金额联动。数据用 crawler 高级查询采集五轮，并纳入头部咨询公司的中国消费者洞察报告，来源见附录 A。</p>
   <div class="kpis">
    <div class="kpi"><b>1,600 万家</b><span>一人有限责任公司，占企业总数 27.4%（2025-06）<a class="src" href="#S541">S541</a></span></div>
    <div class="kpi"><b>82%</b><span>一人创业者已为 AI 工具付费，超 30% 每月 100 美元以上<a class="src" href="#S557">S557</a></span></div>
@@ -143,7 +143,7 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
    <ul class="tight">
     <li><b>出错代价可控</b>：用户处理的是自己的业务资料（提案、客户沟通、内容、运营数据），不是承担执业责任的法律文书；用户自己就是决策者，会自己核对。</li>
     <li><b>反馈快、包容迭代</b>：一人公司创始人“打鸡血”、愿意尝鲜，乐于提需求、参与共创；律师则更保守、更挑错。</li>
-    <li><b>但要防两件事</b>：隐私（客户资料仍不能外传）和流失（80% 的一人公司活不过 3 年<a class="src" href="#S557">S557</a>），所以只卖年付、重视团队版。</li>
+    <li><b>但要防两件事</b>：隐私（客户资料仍不能外传）和流失（80% 的一人公司活不过 3 年<a class="src" href="#S557">S557</a>），所以要用团队版和“自动跑”的周期性任务把用户留住。</li>
    </ul>
    <h4>核心场景（一人多岗）</h4>
    <ul class="tight">
@@ -161,16 +161,17 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
     <tr><td>年末付费席位（个人 + 团队）</td><td class="r dyn" data-v="payTotal" data-f="int">—</td></tr>
     <tr><td>第 6 个月 / 第 12 个月营收</td><td class="r"><span class="dyn" data-v="bookM6">—</span> / <span class="dyn" data-v="bookM12">—</span></td></tr>
     <tr><td>首次达到月目标的月份</td><td class="r dyn" data-v="firstHitTxt">—</td></tr>
-    <tr><td>全年现金收入（年付）</td><td class="r dyn" data-v="bookYear">—</td></tr>
+    <tr><td>全年营收（月订阅累计）</td><td class="r dyn" data-v="bookYear">—</td></tr>
     <tr><td>其中预算直接带来 / 团队单</td><td class="r"><span class="dyn" data-v="shareBudget" data-f="pct0">—</span> / <span class="dyn" data-v="shareTeam" data-f="pct0">—</span></td></tr>
     <tr><td>扣算力、分成、营销后的净贡献</td><td class="r dyn" data-v="net" data-f="signed">—</td></tr>
    </table>
-   <div class="note warn" style="margin-top:10px"><b>50 万目标</b>：基准情景下第 12 个月约 <b class="dyn" data-v="bookM12">—</b>（达成 <b class="dyn" data-v="hitPct" data-f="pct0">—</b>）。团队单和分成伙伴同时翻倍才能在第 10 个月左右达到（见 1.3）。和律师版一样，决定性因素是<b>团队销售与分成伙伴的产能</b>，不是 2 万预算。建议第一年考核第 12 个月 ¥25–30 万，50 万作为冲刺目标。</div>
+   <div class="note warn" style="margin-top:10px"><b>50 万目标</b>：基准情景下第 12 个月约 <b class="dyn" data-v="bookM12">—</b>（达成 <b class="dyn" data-v="hitPct" data-f="pct0">—</b>）。按月订阅后收入逐月累积，目标比年付口径更接近：团队单或分成伙伴任一翻倍，第 10 个月即可达到（见 1.3）。决定性因素仍是<b>团队销售与分成伙伴的产能</b>和<b>月流失率</b>，不是 2 万预算。<b>最大风险是价格</b>：¥499/月是大厂办公智能体的 6–10 倍，转付费率是本计划最不确定的假设（见 4.4）。</div>
   </div>
  </div>
  <div class="card"><h4>沿用与变化</h4><ul class="tight">
-  <li><b>沿用</b>：年付 499 / 999 / 1,999（剪映 SVIP 连续包年也是 ¥499<a class="src" href="#S580">S580</a>，OPC 的 AI 工具栈 1–3 万/年<a class="src" href="#S569">S569</a>，价格可接受）；品牌不用“管家”，首选“懂档”；2 万预算不买量；外部封闭测试先行。</li>
-  <li><b>变化</b>：团队版改为“高级版 × 9 折 / 席、5 席起”（初创团队的席位预算低于律所）；获客渠道从律师圈改为<b>OPC 社区、创业营、孵化器、即刻与 AI 效率博主</b>；律师细分移入附录，作为“评估后暂缓”的选项。</li>
+  <li><b>更正</b>：管理层的价格是<b>月付</b> ¥499 / ¥999 / ¥1,999（≈ 年 ¥6,000 / ¥12,000 / ¥24,000），V6 误读为年付，本版已更正，收入模型改为“月订阅 + 流失”。</li>
+  <li><b>沿用</b>：品牌不用“管家”，首选“懂档”；2 万预算不买量；外部封闭测试先行。</li>
+  <li><b>变化</b>：团队版改为“标准版 × 9 折 / 席 / 月、5 席起”（每单约 ¥2,246/月）；获客渠道从律师圈改为<b>OPC 社区、创业营、孵化器、即刻与 AI 效率博主</b>；律师细分移入附录，作为“评估后暂缓”的选项。</li>
  </ul></div>
 </div></section>
 
@@ -218,20 +219,20 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   <div class="card"><div class="pill">TAM 总体市场</div><div class="big">≈ 1,600 万家</div>
    <p style="font-size:13.5px;margin:6px 0 0">一人有限责任公司 1,600 万家<a class="src" href="#S541">S541</a>；另有 2025 年新设个体工商户 1,619 万户<a class="src" href="#S525">S525</a>、以自媒体为主要收入的创作者约 5,000 万人<a class="src" href="#S517">S517</a>。很多是“空壳”或线下小生意，不是桌面知识工作者。</p></div>
   <div class="card"><div class="pill g">SAM 可服务市场</div><div class="big">≈ 330 万人</div>
-   <p style="font-size:13.5px;margin:6px 0 0">TAM × 知识服务型（咨询、内容、设计、营销服务、软件/产品，约 25%）× 已为 AI 付费 82%<a class="src" href="#S557">S557</a>【知识服务型占比为假设，H6 验证】，加上 3–10 人初创团队的核心成员。年规模约 <span class="dyn" data-v="samRev">—</span>。</p></div>
+   <p style="font-size:13.5px;margin:6px 0 0">TAM × 知识服务型（咨询、内容、设计、营销服务、软件/产品，约 25%）× 已为 AI 付费 82%<a class="src" href="#S557">S557</a>【知识服务型占比为假设，H6 验证】，加上 3–10 人初创团队的核心成员。但能接受 ¥499/月 以上单一工具的只是其中少数（见 4.4）。</p></div>
   <div class="card"><div class="pill o">SOM 第一年</div><div class="big"><span class="dyn" data-v="payTotal" data-f="int">—</span> 席</div>
    <p style="font-size:13.5px;margin:6px 0 0">由下方月度模型算出，约占 SAM 的 <span class="dyn" data-v="somPct" data-f="pct3">—</span>。目标是在 OPC 圈子里形成口碑和一批公开晒工作流的种子用户。</p></div>
  </div>
 
  <h3>1.2 50 万月营收需要什么</h3>
  <div class="grid3">
-  <div class="card"><b>只靠个人年付</b><p style="margin:6px 0 0">每月 <b class="dyn" data-v="reqInd" data-f="int">—</b> 个新付费用户（加权年费 <span class="dyn" data-v="avgInd">—</span>），按转付费 <span class="dyn" data-v="conv" data-f="pct0">—</span> 需要每月 <b class="dyn" data-v="reqRegs" data-f="int">—</b> 个新注册。</p></div>
-  <div class="card"><b>只靠团队单</b><p style="margin:6px 0 0">每月 <b class="dyn" data-v="reqTeam" data-f="int">—</b> 张 5 席团队单（每单 <span class="dyn" data-v="teamDeal">—</span>）。团队单单价低于律所，需要靠孵化器和创业营批量触达。</p></div>
+  <div class="card"><b>只靠个人订阅</b><p style="margin:6px 0 0">需要 <b class="dyn" data-v="reqInd" data-f="int">—</b> 个在付用户（加权月费 <span class="dyn" data-v="avgInd">—</span>）。按月流失 <span class="dyn" data-v="churn" data-f="pct0">—</span>，稳态下每月要新增约 <b class="dyn" data-v="reqNew" data-f="int">—</b> 个付费、<b class="dyn" data-v="reqRegs" data-f="int">—</b> 个注册。</p></div>
+  <div class="card"><b>只靠团队单</b><p style="margin:6px 0 0">约 <b class="dyn" data-v="reqTeam" data-f="int">—</b> 个在付 5 席团队（每队 <span class="dyn" data-v="teamDeal">—</span>/月），需要孵化器和创业营批量触达。</p></div>
   <div class="card"><b>2 万预算能做到的</b><p style="margin:6px 0 0">全年直接带来约 <b class="dyn" data-v="budgetPayers" data-f="int">—</b> 个付费用户（预算渠道 CAC 约 <span class="dyn" data-v="cacBudget">—</span>）。预算用于<b>启动口碑和制作内容弹药</b>。</p></div>
  </div>
 
  <h3>1.3 月营收路径（随预算和假设联动）</h3>
- <p>模型逐月模拟四个来源：预算带来的注册、付费用户的口碑推荐、分成伙伴（OPC 社区主理人、AI 效率博主、创业营，2027-03 起）、初创团队单（2027-03 起，创始人带队）。年付按签约当月计入现金营收。</p>
+ <p>模型逐月模拟四个来源：预算带来的注册、付费用户的口碑推荐、分成伙伴（OPC 社区主理人、AI 效率博主、创业营，2027-03 起）、初创团队单（2027-03 起，创始人带队）。月营收 = 当月在付用户 × 月费（每月按流失率减少，团队流失按个人的一半计）。</p>
  <div class="card chart"><div id="revChart"></div><div class="legend" id="revLegend"></div></div>
  <div class="tbl"><table id="revTbl"><thead></thead><tbody></tbody></table></div>
  <h4>达成 50 万的杠杆（同一预算，只改一个或几个假设）</h4>
@@ -239,14 +240,14 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   <thead><tr><th>情景</th><th class="r">第 12 个月营收</th><th class="r">目标达成</th><th class="r">首次达标月</th><th class="r">全年现金收入</th><th class="r">净贡献</th></tr></thead>
   <tbody></tbody>
  </table></div>
- <div class="note"><b>结论</b>：50 万/月仍然要靠人和渠道。好的一面是：OPC 圈子本身就是“社区 + 博主 + 创业营”结构，分成伙伴更容易找到；用户自己就是老板，口碑推荐链路更短。建议考核：第 12 个月营收 ¥25–30 万、活跃分成伙伴 ≥ 40 家、团队单累计 ≥ 150 单；H1 封闭测试转付费 ≥ 25% 时上调目标。</div>
+ <div class="note"><b>结论</b>：月订阅下收入会累积，基准情景第 12 个月约 <b class="dyn" data-v="bookM12">—</b>（达成 <b class="dyn" data-v="hitPct" data-f="pct0">—</b>）。但这依赖 <span class="dyn" data-v="conv" data-f="pct0">—</span> 的转付费和 <span class="dyn" data-v="churn" data-f="pct0">—</span> 的月流失两个未验证假设；转付费只有 3% 时只有约 77%。50 万/月仍然要靠人和渠道。好的一面是：OPC 圈子本身就是“社区 + 博主 + 创业营”结构，分成伙伴更容易找到；用户自己就是老板，口碑推荐链路更短。建议考核：第 12 个月营收 ¥40 万（冲刺 ¥50 万）、活跃分成伙伴 ≥ 40 家、在付团队 ≥ 120 个；H1 封闭测试显示转付费 &lt; 3% 时下调目标或调整价格。</div>
 
  <h3>1.4 目标体系（SMART）</h3>
  <div class="tbl"><table>
   <thead><tr><th>层级</th><th>指标</th><th class="r">目标</th><th>截止</th></tr></thead>
   <tbody>
-   <tr><td><span class="pill">财务</span></td><td>第 12 个月营收（考核 / 冲刺）</td><td class="r">¥25–30 万 / <span class="dyn" data-v="target">—</span></td><td>2027-11</td></tr>
-   <tr><td><span class="pill">财务</span></td><td>全年现金收入（模型基准）</td><td class="r dyn" data-v="bookYear">—</td><td>2027-11-30</td></tr>
+   <tr><td><span class="pill">财务</span></td><td>第 12 个月营收（考核 / 冲刺）</td><td class="r">¥40 万 / <span class="dyn" data-v="target">—</span></td><td>2027-11</td></tr>
+   <tr><td><span class="pill">财务</span></td><td>全年营收（模型基准）</td><td class="r dyn" data-v="bookYear">—</td><td>2027-11-30</td></tr>
    <tr><td><span class="pill g">营销</span></td><td>外部封闭测试通过（H1）</td><td class="r">3 项硬指标</td><td>2027-01-31</td></tr>
    <tr><td><span class="pill g">营销</span></td><td>年末付费席位</td><td class="r dyn" data-v="payTotal" data-f="int">—</td><td>2027-11-30</td></tr>
    <tr><td><span class="pill g">营销</span></td><td>公开分享工作流的种子用户</td><td class="r">≥ 50 人</td><td>2027-06-30</td></tr>
@@ -255,17 +256,18 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   </tbody>
  </table></div>
 
- <h3>1.5 单客经济</h3>
+ <h3>1.5 单客经济（月订阅）</h3>
  <div class="grid2">
   <div class="card"><table>
-   <tr><td>个人加权年费（套餐结构见 4.4）</td><td class="r dyn" data-v="avgInd">—</td></tr>
-   <tr><td>团队单（5 席 × 高级版 × 9 折）</td><td class="r dyn" data-v="teamDeal">—</td></tr>
-   <tr><td>综合毛利率（扣算力）</td><td class="r dyn" data-v="gm" data-f="pct0">—</td></tr>
+   <tr><td>个人加权月费（套餐结构见 4.4）</td><td class="r dyn" data-v="avgInd">—</td></tr>
+   <tr><td>团队（5 席 × 标准版 × 9 折）/月</td><td class="r dyn" data-v="teamDeal">—</td></tr>
+   <tr><td>月流失率 / 平均订阅月数</td><td class="r"><span class="dyn" data-v="churn" data-f="pct0">—</span> / <span class="dyn" data-v="lifeM" data-f="num1">—</span> 个月</td></tr>
+   <tr><td>单个付费用户生命周期毛利（LTV）</td><td class="r dyn" data-v="ltvUnit">—</td></tr>
    <tr><td>预算渠道 CAC</td><td class="r dyn" data-v="cacBudget">—</td></tr>
-   <tr><td>MER（全年现金收入 ÷ 营销预算）</td><td class="r dyn" data-v="mer" data-f="x">—</td></tr>
+   <tr><td>综合毛利率（扣算力）</td><td class="r dyn" data-v="gm" data-f="pct0">—</td></tr>
   </table></div>
-  <div class="card"><p>年付首年收入（约 <span class="dyn" data-v="avgInd">—</span>）高于预算渠道 CAC，<b>首年回本</b>。对 OPC 来说，¥999/年 ≈ 每月 ¥83，按“1 元 AI 成本替代 72 元人力”<a class="src" href="#S542">S542</a>的口径，相当于每月替代约 ¥6,000 的助理工作，价值说法成立。</p>
-  <p style="font-size:12.5px;color:var(--mut)">风险：80% 的一人公司活不过 3 年<a class="src" href="#S557">S557</a>，续费率可能低于律师；所以只卖年付，并把团队版作为留存和扩张的主要路径。</p></div>
+  <div class="card"><p>高月费带来很高的 LTV（约 <span class="dyn" data-v="ltvUnit">—</span>），CAC 很快回本，单客经济不是问题。<b>问题在付费人数</b>：大众职场人中能接受单个 AI 工具 ¥499/月的不到 2%（由 S272 拟合<a class="src" href="#S272">S272</a>）；即使在一人公司里，也只有约 30% 每月 AI 总支出超过 100 美元（≈ ¥720）<a class="src" href="#S557">S557</a>。</p>
+  <p>所以价值说法必须是<b>替代人力</b>而不是替代工具：¥999/月对比请一位兼职助理（每月数千元），按“1 元 AI 成本替代 72 元人力”<a class="src" href="#S542">S542</a>的口径成立；对比 ¥49–78/月的大厂工具则不成立。</p></div>
  </div>
 </div></section>
 
@@ -452,7 +454,7 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   <div class="pil"><b>找得到</b>跨项目、跨设备秒找，附出处<br><span class="pill">回应：反复交代背景 45.9%</span></div>
   <div class="pil"><b>汇得起</b>客户周报、投资人月报、项目复盘一句话生成<br><span class="pill">回应：一人多岗、汇报多</span></div>
   <div class="pil"><b>写得像你</b>以你的旧作为样本，少改<br><span class="pill">回应：大量修改 33.1%</span></div>
-  <div class="pil"><b>放心用</b>本地优先、结果可核对、年付价格清楚<br><span class="pill">回应：隐私 46.7%、追求确定性</span></div>
+  <div class="pil"><b>放心用</b>本地优先、结果可核对、价格档位清楚<br><span class="pill">回应：隐私 46.7%、追求确定性</span></div>
   <div class="base"><b>共同点（品类必备）</b>：写作、做表、做 PPT、联网查资料、国产已备案模型、手机远程指令。<b>个性</b>：利落、靠谱、像一位能干的合伙人助理。<b>证据</b>：种子用户公开的真实工作流录屏、“一周省下几小时”的自报数据、数据流向说明。</div>
  </div>
  <div class="note warn">会议中“比竞品检索快”“按成果建画像”仍属内部口径，不直接对外讲<a class="src" href="#M1">M1</a>；对外只讲用户能验证的结果。不承诺“替代员工”“月入百万”这类创业鸡汤式说法。</div>
@@ -480,7 +482,7 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   <div class="card"><h4>服务承诺</h4><ul class="tight">
    <li><b>隐私</b>：客户资料默认本机处理；一键清除索引；公开数据流向说明。</li>
    <li><b>可核对</b>：每个结论附出处；找不到时明确说“没有找到”。</li>
-   <li><b>试用</b>：14 天全功能试用；年付 15 天内无理由退款。</li>
+   <li><b>试用</b>：14 天全功能试用；首月 7 天内无理由退款。</li>
    <li><b>共创</b>：创始用户每月一次产品共创会，需求响应快（这群人最看重迭代速度）。</li>
   </ul></div>
   <div class="card"><h4>服务标准</h4><ul class="tight">
@@ -510,47 +512,56 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
    <p style="font-size:13px;color:var(--mut)">首选“懂档”。在即刻和小红书用同一条录屏换名测试点击率和收藏率（H3）。</p></div>
  </div>
 
- <h3>4.4 价格：年付 499 / 999 / 1,999</h3>
+ <h3>4.4 价格：月付 499 / 999 / 1,999</h3>
  <div class="grid2">
   <div class="card"><h4>① 这群人的价格锚点</h4>
    <div class="tbl"><table>
     <thead><tr><th>参照</th><th class="r">价格</th></tr></thead>
     <tbody>
-     <tr><td>一人公司 AI 工具栈总年费</td><td class="r">¥1–3 万/年<a class="src" href="#S569">S569</a></td></tr>
+     <tr><td>大厂通用办公智能体（个人起步 / 最高档）</td><td class="r">¥49–78 / ¥500–699 每月<a class="src" href="#S49">S49</a></td></tr>
      <tr><td>一人创业者 AI 月支出</td><td class="r">82% 已付费，超 30% ≥ 100 美元/月<a class="src" href="#S557">S557</a></td></tr>
-     <tr><td>剪映 SVIP（创作者常用）</td><td class="r">连续包年 ¥499，年卡 ¥599<a class="src" href="#S580">S580</a></td></tr>
-     <tr><td>大厂通用办公智能体（个人起步）</td><td class="r">¥49–78/月<a class="src" href="#S49">S49</a></td></tr>
-     <tr><td>Notion AI 插件</td><td class="r">8 美元/人/月<a class="src" href="#S602">S602</a></td></tr>
+     <tr><td>一人公司 AI 工具栈总年费</td><td class="r">¥1–3 万/年（≈ ¥830–2,500/月）<a class="src" href="#S569">S569</a></td></tr>
+     <tr><td>剪映 SVIP（创作者常用）</td><td class="r">¥59–79/月<a class="src" href="#S580">S580</a></td></tr>
+     <tr><td>大众职场人对单个 AI 工具的月费上限</td><td class="r">75.2% 在 ¥50 以下，4.3% ≥ ¥200<a class="src" href="#S272">S272</a></td></tr>
     </tbody>
    </table></div>
-   <p style="font-size:13px;color:var(--mut)">¥499–1,999/年（≈ ¥42–167/月）落在一人公司 AI 预算之内，但高于大众职场人的 ¥50/月接受度<a class="src" href="#S272">S272</a>，所以只面向已商业化的一人公司和团队，不面向大众创作者。</p></div>
+   <p style="font-size:13px;color:var(--mut)">¥499/月 ≈ 大厂个人起步价的 6–10 倍，接近一人公司整个 AI 工具栈月均支出的 20–60%。这个价格只对<b>AI 支出最高的约 30% 的一人公司</b>和<b>把它当“助理”而非“工具”的团队</b>成立。</p></div>
   <div class="card"><h4>② 价格结构（可在预算控制台修改）</h4>
    <div class="tbl"><table>
     <thead><tr><th>档位</th><th class="r">价格</th><th>对象</th></tr></thead>
     <tbody>
-     <tr><td>14 天试用</td><td class="r">¥0</td><td>所有人</td></tr>
-     <tr><td>标准版</td><td class="r dyn" data-v="pStdT">—</td><td>刚起步的 OPC、副业者：检索 + 出处</td></tr>
-     <tr style="background:#f2f6ff"><td><b>高级版</b></td><td class="r dyn" data-v="pProT">—</td><td>O1、O2 主力：+ 多项目汇总、风格学习、多平台改写</td></tr>
-     <tr><td>旗舰版</td><td class="r dyn" data-v="pFlagT">—</td><td>O3、T1 创始人：+ 定时任务、多设备、更强模型</td></tr>
-     <tr><td>团队版</td><td class="r">高级版 × 9 折 / 席，5 席起（每单 <span class="dyn" data-v="teamDeal">—</span>）</td><td>3–10 人初创团队</td></tr>
+     <tr><td>14 天试用</td><td class="r">¥0</td><td>所有人（试用要足够长，才能体现“替代人力”）</td></tr>
+     <tr><td>标准版</td><td class="r dyn" data-v="pStdT">—</td><td>O1、O2：检索 + 出处 + 多项目汇总</td></tr>
+     <tr style="background:#f2f6ff"><td><b>高级版</b></td><td class="r dyn" data-v="pProT">—</td><td>重度 OPC：+ 风格学习、多平台改写、定时任务</td></tr>
+     <tr><td>旗舰版</td><td class="r dyn" data-v="pFlagT">—</td><td>O3、T1 创始人：+ 多设备、最强模型、专属支持</td></tr>
+     <tr><td>团队版</td><td class="r">标准版 × 9 折 / 席 / 月，5 席起（每队 <span class="dyn" data-v="teamDeal">—</span>/月）</td><td>3–10 人初创团队</td></tr>
     </tbody>
    </table></div>
-   <p style="font-size:13px;color:var(--mut)">个人付费结构（假设）：标准 <span class="dyn" data-v="mixStd" data-f="pct0">—</span> / 高级 <span class="dyn" data-v="mixPro" data-f="pct0">—</span> / 旗舰 <span class="dyn" data-v="mixFlag" data-f="pct0">—</span>，加权年费 <b class="dyn" data-v="avgInd">—</b>。</p></div>
+   <p style="font-size:13px;color:var(--mut)">个人付费结构（假设）：标准 <span class="dyn" data-v="mixStd" data-f="pct0">—</span> / 高级 <span class="dyn" data-v="mixPro" data-f="pct0">—</span> / 旗舰 <span class="dyn" data-v="mixFlag" data-f="pct0">—</span>，加权月费 <b class="dyn" data-v="avgInd">—</b>。年付可选（12 个月按 10 个月收），用于降低流失。</p></div>
  </div>
- <div class="card"><h4>③ 定价策略与纪律</h4><ul class="tight">
-  <li><b>价值说法</b>：“¥999/年 ≈ 每月 ¥83，替你做一个助理的整理和汇报工作。”</li>
-  <li><b>只卖年付</b>：一人公司流失风险高（80% 活不过 3 年<a class="src" href="#S557">S557</a>），年付锁定一年现金流；高级版为主推档。</li>
-  <li><b>用权益做促销，不打折</b>：前 200 名“创始用户”锁价 3 年 + 共创会；创业营和孵化器入驻团队给团队版首年 8 折（作为渠道权益，不对外公开）。</li>
-  <li><b>价格测试（H2）</b>：高级版 ¥999 vs ¥799；团队版 9 折 vs 8 折。</li>
-  <li><b>政策红利</b>：多地为 OPC 提供算力补贴和 AI 工具平台<a class="src" href="#S541">S541</a>，争取进入地方 OPC 社区的“推荐工具清单”。</li>
+ <div class="card">
+  <h4>③ 价格情景（同一套假设，整体价格档位上下平移；转付费按价格接受度曲线换算）</h4>
+  <div class="tbl"><table id="priceTbl">
+   <thead><tr><th class="r">标准 / 高级 / 旗舰（元/月）</th><th class="r">转付费</th><th class="r">第 12 个月在付个人</th><th class="r">第 12 个月营收</th><th class="r">目标达成</th><th class="r">全年营收</th><th class="r">净贡献</th></tr></thead>
+   <tbody></tbody>
+  </table></div>
+  <p style="font-size:13px;color:var(--mut);margin-bottom:0">读法：曲线来自大众职场人数据，价格越高衰减越平，所以模型里高价营收略高；但它<b>没有反映</b>高价下用户更挑剔、退款与流失更高。结论：营收对价格不敏感、对<b>转付费和流失</b>非常敏感。在封闭测试拿到真实转付费前，保持管理层价格，同时准备 ¥199/¥399 的备选档。</p>
+ </div>
+ <div class="card"><h4>④ 定价策略与纪律</h4><ul class="tight">
+  <li><b>定价目标</b>：质量领先、撇脂定价。只争取最看重效率、AI 预算最高的那批用户。</li>
+  <li><b>价值说法</b>：“¥999/月，一个懂你业务的助理；兼职助理一个月要几千元。”不与 ¥49 的大厂工具比价。</li>
+  <li><b>月付为主、年付可选</b>：年付 12 个月按 10 个月收，用于锁定现金流、降低流失。</li>
+  <li><b>首月体验价不打骨折</b>：创始用户前 200 名首 3 个月 7 折并锁价 1 年；不做全站折扣。</li>
+  <li><b>价格测试（H2）</b>：标准版 ¥499 vs ¥299，按“转付费 × 价格 × 留存”判断；若 ¥299 的收入不低于 ¥499 的 90%，选 ¥299（用户基数更大、口碑更快）。</li>
+  <li><b>算力</b>：每席月算力成本按 ¥50 估算，毛利率高；可以给足额度，避免积分焦虑<a class="src" href="#S51">S51</a>。</li>
  </ul></div>
 
  <h3>4.5 激励</h3>
  <div class="tbl"><table>
   <thead><tr><th>工具</th><th>规则</th><th class="r">预算</th></tr></thead>
   <tbody>
-   <tr><td>创始用户计划</td><td>前 200 名年付锁价 3 年，参加共创会，可署名公开工作流</td><td class="r dyn" data-v="sub_inc_found">—</td></tr>
-   <tr><td>邀请双向奖励</td><td>邀请人和被邀请人各延长 2 个月；带来团队单的推荐人再加 3 个月</td><td class="r dyn" data-v="sub_inc_ref">—</td></tr>
+   <tr><td>创始用户计划</td><td>前 200 名首 3 个月 7 折并锁价 1 年，参加共创会，可署名公开工作流</td><td class="r dyn" data-v="sub_inc_found">—</td></tr>
+   <tr><td>邀请双向奖励</td><td>邀请人和被邀请人各得 1 个月免费；带来团队单的推荐人再加 2 个月</td><td class="r dyn" data-v="sub_inc_ref">—</td></tr>
   </tbody>
  </table></div>
 
@@ -585,9 +596,9 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
  <h3>4.7 分销</h3>
  <div class="grid2">
   <div class="card"><h4>三条渠道</h4><ul class="tight">
-   <li><b>直营（个人年付）</b>：官网下载 + 年付。</li>
+   <li><b>直营（个人订阅）</b>：官网下载 + 月付（年付可选）。</li>
    <li><b>初创团队销售</b>：创始人带队，经孵化器、众创空间、创业营批量演示（模型中约占 <span class="dyn" data-v="shareTeam" data-f="pct0">—</span>）。</li>
-   <li><b>分成伙伴</b>：OPC 社区主理人、AI 效率博主、知识付费训练营、创业营，按首年实收 <b class="dyn" data-v="cpsRate" data-f="pct0">—</b> 分成<a class="src" href="#M1">M1</a>，最多 2 级<a class="src" href="#S199">S199</a>。O2 知识博主既是用户也是伙伴。</li>
+   <li><b>分成伙伴</b>：OPC 社区主理人、AI 效率博主、知识付费训练营、创业营，按被推荐用户实收的 <b class="dyn" data-v="cpsRate" data-f="pct0">—</b> 持续分成（月付每月结算）<a class="src" href="#M1">M1</a>，最多 2 级<a class="src" href="#S199">S199</a>。O2 知识博主既是用户也是伙伴。</li>
   </ul></div>
   <div class="card"><h4>伙伴管理</h4><ul class="tight">
    <li>A 级伙伴（月带来 ≥ 10 个付费）优先获得新功能内测和联合直播。</li>
@@ -604,7 +615,7 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   <div><b>认知 Aware</b>即刻 / 小红书上同行晒的工作流、OPC 社区分享<br><span class="pill k">到达、录屏完播</span></div>
   <div><b>诉求 Appeal</b>对应自己身份的工作流模板（咨询、博主、开发、CEO）<br><span class="pill k">模板下载、收藏</span></div>
   <div><b>询问 Ask</b>社群里问、知乎“一人公司 AI 工具”、问 AI（GEO）<br><span class="pill k">AI 提及率、试用申请</span></div>
-  <div><b>行动 Act</b>按项目授权文件夹 → 第一次跨项目检索 → 第一份多项目周报 → 年付<br><span class="pill k">激活率、14 天转付费</span></div>
+  <div><b>行动 Act</b>按项目授权文件夹 → 第一次跨项目检索 → 第一份多项目周报 → 月付订阅<br><span class="pill k">激活率、14 天转付费</span></div>
   <div><b>拥护 Advocate</b>公开晒工作流 → 邀请同行 → 成为分成伙伴 → 团队扩张后升级团队版<br><span class="pill k">邀请率、团队升级</span></div>
  </div>
  <div class="tbl" style="margin-top:12px"><table>
@@ -669,7 +680,7 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
    <tr class="hot"><td>3 月</td><td>正式发布</td><td><b>“一个人，也有一个懂你业务的助理”</b>；团队版与定时任务上线；分成伙伴招募</td><td>全渠道 + 孵化器路演</td><td>团队单开始成交</td></tr>
    <tr><td>4–6 月</td><td>扩张</td><td>“晒出你的工作流”征集；地方 OPC 社区巡回分享</td><td>OPC 社区、创业营</td><td>公开工作流 ≥ 50（6-30）</td></tr>
    <tr><td>7–9 月</td><td>深耕</td><td>创业营秋季批次、孵化器合作；评估相邻人群（小型工作室、MCN 编导）</td><td>分成伙伴、孵化器</td><td>伙伴 ≥ 40 家（9-30）</td></tr>
-   <tr class="hot"><td>10–11 月</td><td>冲刺</td><td>双 11 年付 + 年终复盘季；首批续费</td><td>全渠道</td><td>11-30 年度复盘</td></tr>
+   <tr class="hot"><td>10–11 月</td><td>冲刺</td><td>双 11 年付优惠（12 付 10）+ 年终复盘季；流失挽回</td><td>全渠道</td><td>11-30 年度复盘</td></tr>
   </tbody>
  </table></div>
  <h3>7.2 战役结构：“一个人的年终复盘，一句话写完”（2027-01）</h3>
@@ -745,14 +756,14 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   <thead><tr><th>#</th><th>假设</th><th>验证方法</th><th>样本</th><th>通过标准</th><th>未通过时的动作</th></tr></thead>
   <tbody>
    <tr style="background:#fff6ee"><td><b>H1</b></td><td><b>内测结论在外部 OPC 中成立</b>（远超竞品、离不开、愿付费）</td><td>外部封闭测试，用真实项目</td><td>40–60 人 × 4 周</td><td>第 4 周周活 ≥ 60%；7 天转付费意向 ≥ 15%；NPS ≥ 50</td><td>不放量；迭代产品</td></tr>
-   <tr><td>H2</td><td>高级版 ¥999 的收入不低于 ¥799；团队版 9 折优于 8 折</td><td>定价页 A/B</td><td>每组 ≥ 150 试用</td><td>转付费 × 价格最高或差距 ≤ 10%</td><td>改价，回写 4.4</td></tr>
+   <tr><td>H2</td><td>标准版 ¥499/月 的收入不低于 ¥299/月 的 90%</td><td>定价页 A/B</td><td>每组 ≥ 150 试用</td><td>转付费 × 价格 × 第 2 月留存</td><td>改价，回写 4.4</td></tr>
    <tr><td>H3</td><td>“懂档”优于其他候选名</td><td>即刻 / 小红书换名测试</td><td>每组 ≥ 5,000 曝光</td><td>点击率与联想领先</td><td>换名</td></tr>
    <tr><td>H4</td><td>“一个人也有助理”比“少交代就懂你”更能打动 OPC</td><td>两版录屏 A/B</td><td>每组 ≥ 3,000 曝光</td><td>试用申请率高 ≥ 20%</td><td>调整主口号</td></tr>
    <tr><td>H5</td><td>每家分成伙伴每月带来 ≥ 25 个注册</td><td>前 10 家伙伴跟踪 8 周</td><td>10 家</td><td>中位数 ≥ 25</td><td>调整分成或伙伴类型</td></tr>
    <tr><td>H6</td><td>O1（多客户服务型）是转化最高的子人群</td><td>按注册身份对比转付费</td><td>每类 ≥ 100</td><td>O1 或 O2 领先</td><td>换主攻子人群，回写 3.2</td></tr>
    <tr><td>H7</td><td>孵化器演示 → 团队单转化 ≥ 20%</td><td>前 20 场团队演示</td><td>20 场</td><td>≥ 4 单</td><td>改演示内容或团队规模</td></tr>
    <tr><td>H8</td><td>每席每年算力成本 ≤ ¥150</td><td>封闭测试真实调用</td><td>60 人 × 30 天</td><td>≤ ¥150</td><td>调整额度或模型</td></tr>
-   <tr><td>H9</td><td>年付续费率 ≥ 60%（OPC 流失高）</td><td>首批年付用户</td><td>2028 年初</td><td>≥ 60%</td><td>加强团队版与留存</td></tr>
+   <tr><td>H9</td><td>个人月流失率 ≤ 6%</td><td>首批付费用户队列</td><td>前 3 个付费月</td><td>≤ 6%</td><td>加强团队版与留存</td></tr>
   </tbody>
  </table></div>
  <p style="font-size:13.5px">纪律：开测前写好标准；样本不足视为未判定；不事后改口径。每季度把结果回写 ① 收入路径、③ 细分、④ 价格。</p>
@@ -761,8 +772,9 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
   <thead><tr><th>风险</th><th>概率</th><th>影响</th><th>预警信号</th><th>应对</th></tr></thead>
   <tbody>
    <tr><td>内测结论在外部用户中不成立</td><td>中</td><td>极高</td><td>H1 不达标</td><td>不放量，迭代产品</td></tr>
-   <tr><td>一人公司业务停摆导致流失</td><td>高</td><td>中</td><td>连续 4 周不活跃</td><td>只卖年付；推动团队版；按 H9 跟踪</td></tr>
-   <tr><td>50 万月营收目标过高，团队为追数字打折</td><td>高</td><td>高</td><td>团队单低于 8 折、出现月付</td><td>按 1.3 杠杆表分阶段考核</td></tr>
+   <tr><td>一人公司业务停摆导致流失</td><td>高</td><td>中</td><td>连续 4 周不活跃</td><td>推年付可选（12 付 10）；推动团队版与定时任务；按 H9 跟踪</td></tr>
+   <tr><td>50 万月营收目标过高，团队为追数字打折</td><td>高</td><td>高</td><td>团队单低于 8 折、首月优惠超过 7 折</td><td>按 1.3 杠杆表分阶段考核</td></tr>
+   <tr><td>价格过高导致转付费远低于假设（¥499/月 ≈ 大厂 6–10 倍）</td><td>高</td><td>高</td><td>封闭测试转付费 &lt; 3%</td><td>启用 ¥199/¥399 备选档；强调替代人力</td></tr>
    <tr><td>大厂通用智能体价格更低（¥49–78/月且有免费额度）</td><td>高</td><td>中</td><td>试用后流向大厂</td><td>强调“懂你自己的业务资料”和本地隐私；免费版保留检索能力</td></tr>
    <tr><td>销售与渠道人力不足</td><td>高</td><td>高</td><td>团队单每月 &lt; 3、伙伴 &lt; 10 家</td><td>优先招 1 名团队销售</td></tr>
    <tr><td>客户资料泄露事件</td><td>低</td><td>极高</td><td>漏洞报告</td><td>默认本地处理；危机预案 2 小时内通报</td></tr>
@@ -863,7 +875,6 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
 <tr id="S572"><td><b>S572</b></td><td>B</td><td>woshipm.com<br><span class="pill k">—</span></td><td>我用AI搭了一条内容流水线：日更3平台，每天仅投入2小时 | 人人都是产品经理</td><td>2026-11-14</td><td><a href="https://www.woshipm.com/ai/6415852.html" target="_blank" rel="noopener noreferrer">woshipm.com/ai/6415852.html</a></td></tr>
 <tr id="S580"><td><b>S580</b></td><td>A</td><td>zhuanlan.zhihu.com<br><span class="pill k">—</span></td><td>剪映SVIP价格多少？VIP和SVIP有什么区别，在哪里买更便宜</td><td>2026-11-14</td><td><a href="https://zhuanlan.zhihu.com/p/2088280896747082089" target="_blank" rel="noopener noreferrer">zhuanlan.zhihu.com/p/2088280896747082089</a></td></tr>
 <tr id="S590"><td><b>S590</b></td><td>A</td><td>commeet.ai<br><span class="pill k">—</span></td><td>新創不只要省錢！如何用預算管理提高資金使用效率？ - COMMEET 智能費用管理系統</td><td>2026-11-14</td><td><a href="https://commeet.ai/blog/budget-control/%E6%96%B0%E5%89%B5" target="_blank" rel="noopener noreferrer">commeet.ai/blog/budget-control/%E6%96%B0%E5%8…</a></td></tr>
-<tr id="S602"><td><b>S602</b></td><td>A</td><td>feishu.cn<br><span class="pill k">—</span></td><td>Notion与Asana：您应该在今年选择哪种工具？ - 飞书官网</td><td>2026-11-14</td><td><a href="https://www.feishu.cn/content/notion-vs-asana" target="_blank" rel="noopener noreferrer">feishu.cn/content/notion-vs-asana</a></td></tr>
   </tbody>
  </table></div>
  <details><summary>A.2 全部来源登记（603 条，含未在正文引用的）</summary>
@@ -1489,7 +1500,7 @@ footer{padding:30px 0 60px;color:var(--mut);font-size:13px}
  <div class="tbl"><table>
   <thead><tr><th>编号</th><th>资料</th><th>用途</th></tr></thead>
   <tbody>
-   <tr><td id="M1"><b>M1</b></td><td>会议纪要：个人管家 Pro 版（2026-11-13）<br><a href="https://butler-pro-minutes.accrepo.com/" target="_blank" rel="noopener">https://butler-pro-minutes.accrepo.com/</a></td><td>仅作为<b>产品能力与组织约束</b>的输入（另有管理层第二、三次意见：内测结论、2 万预算、聚焦细分中的细分、499/999/1,999 价格、50 万月营收目标、品牌不用“管家”；第三次意见认为律师细分对初代产品风险过高，改为聚焦自由职业者 / 创作者 / 一人公司 / 小初创团队）：功能（索引、风格学习、多设备、声纹）、分成推广、开发节奏、合规要求。其中的场景（周报、纪念日）与 19.9 元定价在本版中与其他选项一起按市场证据重新评估</td></tr>
+   <tr><td id="M1"><b>M1</b></td><td>会议纪要：个人管家 Pro 版（2026-11-13）<br><a href="https://butler-pro-minutes.accrepo.com/" target="_blank" rel="noopener">https://butler-pro-minutes.accrepo.com/</a></td><td>仅作为<b>产品能力与组织约束</b>的输入（另有管理层第二、三次意见：内测结论、2 万预算、聚焦细分中的细分、499/999/1,999 价格（第四次意见更正为月付）、50 万月营收目标、品牌不用“管家”；第三次意见认为律师细分对初代产品风险过高，改为聚焦自由职业者 / 创作者 / 一人公司 / 小初创团队）：功能（索引、风格学习、多设备、声纹）、分成推广、开发节奏、合规要求。其中的场景（周报、纪念日）与 19.9 元定价在本版中与其他选项一起按市场证据重新评估</td></tr>
    <tr><td id="M2"><b>M2</b></td><td>《数字营销方法论＿20261112_v6.pptx》</td><td>本计划的九模块框架（① 目标 → ⑨ 迭代）、G-STIC 模板与理论依据</td></tr>
   </tbody>
  </table></div>
@@ -1541,28 +1552,32 @@ var AF=[
  ['cpr','有效注册成本（元/注册，2 万预算时）',40,1,'n'],
  ['el','规模弹性（预算翻倍成本上升）',0.15,0.01,'n'],
  ['org','自然、内容与口碑注册加成',1.0,0.05,'p'],
- ['conv','试用转付费率',0.15,0.01,'p'],
- ['ref','每个付费席位每月带来的新注册',0.3,0.05,'n'],
- ['pStd','标准版（元/年）',499,1,'n'],
- ['pPro','高级版（元/年）',999,1,'n'],
- ['pFlag','旗舰版（元/年）',1999,1,'n'],
- ['mixPro','个人付费中高级版占比',0.40,0.01,'p'],
- ['mixFlag','个人付费中旗舰版占比',0.15,0.01,'p'],
+ ['conv','试用转付费率（月付价下）',0.05,0.005,'p'],
+ ['ref','每个付费用户每月带来的新注册',0.2,0.05,'n'],
+ ['pStd','标准版（元/月）',499,1,'n'],
+ ['pPro','高级版（元/月）',999,1,'n'],
+ ['pFlag','旗舰版（元/月）',1999,1,'n'],
+ ['mixPro','个人付费中高级版占比',0.30,0.01,'p'],
+ ['mixFlag','个人付费中旗舰版占比',0.10,0.01,'p'],
+ ['churn','个人月流失率',0.06,0.005,'p'],
  ['cpsMax','活跃分成伙伴上限（家）',40,1,'n'],
  ['cpsRamp','每月新增分成伙伴（家）',4,1,'n'],
  ['cpsRegs','每家伙伴每月带来注册',25,1,'n'],
- ['cps','分成比例（首年实收）',0.30,0.01,'p'],
+ ['cps','分成比例（被推荐用户实收）',0.20,0.01,'p'],
  ['teamMax','初创团队单每月成交上限（单）',30,1,'n'],
  ['teamRamp','团队单每月增加（单）',3,1,'n'],
  ['teamSeats','每单席位数',5,1,'n'],
- ['teamDisc','团队席位折扣（相对高级版价）',0.1,0.01,'p'],
- ['cost','每付费席位年算力等成本（元）',150,10,'n'],
+ ['teamDisc','团队席位折扣（相对标准版月价）',0.1,0.01,'p'],
+ ['cost','每付费席位月算力等成本（元）',50,5,'n'],
  ['target','月营收目标（元）',500000,10000,'n']
 ];
 var DEF_A={};AF.forEach(function(a){DEF_A[a[0]]=a[2];});
 var S={B:20000,pct:Object.assign({},DEF_PCT),A:Object.assign({},DEF_A)};
 var LAUNCH=3; // 2027-03 正式销售（分成伙伴与团队单从这个月开始）
 
+// 价格接受度曲线：S272 两点拟合（职场人单工具月费上限 ≥¥50 占 24.8%，≥¥200 占 4.3%）
+var WTP=(function(){var l1=Math.log((1-0.248)/0.248),l2=Math.log((1-0.043)/0.043),b=(l2-l1)/Math.log(200/50),M=50/Math.exp(l1/b);return {M:M,b:b};})();
+function accept(p){return 1/(1+Math.pow(Math.max(p,0.01)/WTP.M,WTP.b));}
 function model(B,pct,A){
  var v={B:B},sum=0,pool=0;
  ITEMS.forEach(function(i){var a=B*(pct[i.k]||0)/100;v['it_'+i.k]=a;sum+=a;if(i.acq)pool+=a;
@@ -1570,16 +1585,15 @@ function model(B,pct,A){
  v.allocSum=sum;v.pool=pool;
  v.kocNotes=(v.n_kxhs||0)+(v.n_kpod||0)+(v.n_kzh||0);
  var mixStd=Math.max(0,1-A.mixPro-A.mixFlag);
- v.mixStd=mixStd;v.mixPro=A.mixPro;v.mixFlag=A.mixFlag;
+ v.mixStd=mixStd;v.mixPro=A.mixPro;v.mixFlag=A.mixFlag;v.churn=A.churn;
  v.avgInd=mixStd*A.pStd+A.mixPro*A.pPro+A.mixFlag*A.pFlag;
- v.avgMonthly=v.avgInd/12;
- v.pStdT=money(A.pStd)+'/年（≈'+money(A.pStd/12)+'/月）';
- v.pProT=money(A.pPro)+'/年（≈'+money(A.pPro/12)+'/月）';
- v.pFlagT=money(A.pFlag)+'/年（≈'+money(A.pFlag/12)+'/月）';
- v.teamDeal=A.teamSeats*A.pPro*(1-A.teamDisc);
- v.teamSeatPrice=A.pPro*(1-A.teamDisc);
+ v.pStdT=money(A.pStd)+'/月（≈'+money(A.pStd*12)+'/年）';
+ v.pProT=money(A.pPro)+'/月（≈'+money(A.pPro*12)+'/年）';
+ v.pFlagT=money(A.pFlag)+'/月（≈'+money(A.pFlag*12)+'/年）';
+ v.teamDeal=A.teamSeats*A.pStd*(1-A.teamDisc);
+ v.accStd=accept(A.pStd);v.accPro=accept(A.pPro);v.acc50=accept(50);
  v.cprEff=A.cpr*Math.pow(Math.max(B,1)/20000,A.el);
- var seats=0,acv=0,tot={bReg:0,cReg:0,rReg:0,ind:0,bPay:0,team:0,book:0,cpsCost:0};
+ var aB=0,aC=0,aR=0,aT=0,tot={bReg:0,cReg:0,rReg:0,ind:0,bPay:0,team:0,rev:0,revB:0,revT:0,cpsCost:0,cost:0};
  v.mon=[];v.rows=[];v.firstHit=null;
  for(var m=0;m<12;m++){
   var t=0,acq=0;
@@ -1587,32 +1601,35 @@ function model(B,pct,A){
   v.mon.push(t);
   var bReg=acq/v.cprEff*(1+A.org);
   var partners=m>=LAUNCH?Math.min(A.cpsMax,A.cpsRamp*(m-LAUNCH+1)):0;
-  var cReg=partners*A.cpsRegs, rReg=seats*A.ref;
+  var cReg=partners*A.cpsRegs, rReg=(aB+aC+aR)*A.ref;
   var bPay=bReg*A.conv, cPay=cReg*A.conv, rPay=rReg*A.conv, ind=bPay+cPay+rPay;
   var deals=m>=LAUNCH?Math.min(A.teamMax,A.teamRamp*(m-LAUNCH+1)):0;
-  var book=ind*v.avgInd+deals*v.teamDeal;
-  seats+=ind+deals*A.teamSeats; acv+=book;
-  v.rows.push({m:MONTHS[m],partners:partners,reg:bReg+cReg+rReg,ind:ind,deals:deals,book:book,
-   bookB:bPay*v.avgInd,bookC:cPay*v.avgInd,bookR:rPay*v.avgInd,bookT:deals*v.teamDeal,seats:seats,mrr:acv/12});
-  tot.bReg+=bReg;tot.cReg+=cReg;tot.rReg+=rReg;tot.ind+=ind;tot.bPay+=bPay;tot.team+=deals;tot.book+=book;tot.cpsCost+=cPay*v.avgInd*A.cps;
-  if(v.firstHit===null&&book>=A.target)v.firstHit=MONTHS[m];
+  aB=aB*(1-A.churn)+bPay;aC=aC*(1-A.churn)+cPay;aR=aR*(1-A.churn)+rPay;aT=aT*(1-A.churn/2)+deals;
+  var revB=aB*v.avgInd,revC=aC*v.avgInd,revR=aR*v.avgInd,revT=aT*v.teamDeal,mrr=revB+revC+revR+revT;
+  var seats=aB+aC+aR+aT*A.teamSeats;
+  v.rows.push({m:MONTHS[m],partners:partners,reg:bReg+cReg+rReg,ind:ind,deals:deals,book:mrr,
+   bookB:revB,bookC:revC,bookR:revR,bookT:revT,seats:seats,subs:aB+aC+aR,teams:aT});
+  tot.bReg+=bReg;tot.cReg+=cReg;tot.rReg+=rReg;tot.ind+=ind;tot.bPay+=bPay;tot.team+=deals;
+  tot.rev+=mrr;tot.revB+=revB;tot.revT+=revT;tot.cpsCost+=revC*A.cps;tot.cost+=seats*A.cost;
+  if(v.firstHit===null&&mrr>=A.target)v.firstHit=MONTHS[m];
  }
- v.regTotal=tot.bReg+tot.cReg+tot.rReg;v.regBudget=tot.bReg;v.regCps=tot.cReg;v.regRef=tot.rReg;
- v.indPayers=tot.ind;v.budgetPayers=tot.bPay;v.teamDeals=tot.team;v.teamSeatsTot=tot.team*A.teamSeats;
- v.payTotal=seats;v.bookYear=tot.book;
- v.bookM3=v.rows[3].book;v.bookM6=v.rows[6].book;v.bookM12=v.rows[11].book;v.mrrM12=v.rows[11].mrr;
- v.target=A.target;v.hitPct=v.bookM12/A.target;v.gap=Math.max(0,A.target-v.bookM12);
+ var last=v.rows[11];
+ v.regTotal=tot.bReg+tot.cReg+tot.rReg;v.budgetPayers=tot.bPay;v.teamDeals=tot.team;v.newPayers=tot.ind;
+ v.payTotal=last.seats;v.subsM12=last.subs;v.teamsM12=last.teams;v.bookYear=tot.rev;
+ v.bookM6=v.rows[6].book;v.bookM12=last.book;
+ v.target=A.target;v.hitPct=v.bookM12/A.target;
  v.firstHitTxt=v.firstHit?v.firstHit:'12 个月内未达到';
- v.costYear=seats*A.cost;v.cpsCost=tot.cpsCost;
- v.gm=1-v.costYear/Math.max(v.bookYear,1);
- v.net=v.bookYear-v.costYear-v.cpsCost-sum;
+ v.costYear=tot.cost;v.cpsCost=tot.cpsCost;
+ v.gm=1-tot.cost/Math.max(tot.rev,1);
+ v.net=tot.rev-tot.cost-tot.cpsCost-sum;
  v.cacBudget=sum/Math.max(tot.bPay,1e-9);
+ v.ltvUnit=(v.avgInd-A.cost)/Math.max(A.churn,0.001);v.lifeM=1/Math.max(A.churn,0.001);
  v.mer=v.bookYear/Math.max(sum,1);
- v.reqInd=A.target/v.avgInd;v.reqRegs=v.reqInd/Math.max(A.conv,1e-9);v.reqTeam=A.target/v.teamDeal;
+ v.reqInd=A.target/v.avgInd;v.reqNew=v.reqInd*A.churn;v.reqRegs=v.reqNew/Math.max(A.conv,1e-9);v.reqTeam=A.target/v.teamDeal;
  v.conv=A.conv;v.cpsRate=A.cps;
- v.somPct=seats/3300000;v.samRev=3300000*v.avgInd;
- v.share=v.bookYear>0?{b:tot.bPay*v.avgInd/v.bookYear,t:tot.team*v.teamDeal/v.bookYear}:{b:0,t:0};
- v.shareBudget=v.share.b;v.shareTeam=v.share.t;
+ v.somPct=last.seats/3300000;
+ v.shareBudget=tot.revB/Math.max(tot.rev,1);v.shareTeam=tot.revT/Math.max(tot.rev,1);
+ v.arrM12=v.bookM12*12;
  return v;
 }
 
@@ -1676,7 +1693,7 @@ function buildRevTbl(v){
  var h='<tr><th>指标</th>'+v.rows.map(function(r){return '<th class="r">'+r.m+'</th>';}).join('')+'</tr>';
  var line=function(lab,f,fmtf){return '<tr><td>'+lab+'</td>'+v.rows.map(function(r){return '<td class="r">'+fmt(f(r),fmtf)+'</td>';}).join('')+'</tr>';};
  setHTML('#revTbl thead',h);
- setHTML('#revTbl tbody',line('新注册',function(r){return r.reg;},'int')+line('活跃分成伙伴',function(r){return r.partners;},'int')+line('新增个人付费',function(r){return r.ind;},'int')+line('初创团队单',function(r){return r.deals;},'int')+line('<b>当月营收（现金）</b>',function(r){return r.book;})+line('累计付费席位',function(r){return r.seats;},'int')+line('月度确认收入',function(r){return r.mrr;})+line('达成率',function(r){return r.book/v.target;},'pct0'));
+ setHTML('#revTbl tbody',line('新注册',function(r){return r.reg;},'int')+line('活跃分成伙伴',function(r){return r.partners;},'int')+line('新增个人付费',function(r){return r.ind;},'int')+line('新增团队单',function(r){return r.deals;},'int')+line('<b>月营收（MRR）</b>',function(r){return r.book;})+line('在付个人用户',function(r){return r.subs;},'int')+line('在付团队',function(r){return r.teams;},'int')+line('付费席位',function(r){return r.seats;},'int')+line('达成率',function(r){return r.book/v.target;},'pct0'));
 }
 function buildMonthTbl(v){
  setHTML('#monthTbl thead','<tr><th>科目</th>'+MONTHS.map(function(m){return '<th class="r">'+m+'</th>';}).join('')+'<th class="r">合计</th></tr>');
@@ -1713,16 +1730,21 @@ function buildScen(){
 }
 var LEVERS=[['基准假设',{}],
  ['只做个人用户（不做团队单）',{teamMax:0}],
- ['内测结论打折：转付费只有 8%',{conv:0.08}],
- ['转付费提高到 25%（产品力被外部验证）',{conv:0.25}],
+ ['转付费只有 3%（高价劝退更多人）',{conv:0.03}],
+ ['转付费 8%（产品力被外部验证）',{conv:0.08}],
  ['团队单翻倍（上限 60 单/月、每月 +6）',{teamMax:60,teamRamp:6}],
  ['分成伙伴翻倍（上限 80 家、每月 +8）',{cpsMax:80,cpsRamp:8}],
  ['团队单与分成伙伴同时翻倍',{teamMax:60,teamRamp:6,cpsMax:80,cpsRamp:8}],
- ['三项同时（转付费 25% + 团队单与伙伴翻倍）',{conv:0.25,teamMax:60,teamRamp:6,cpsMax:80,cpsRamp:8}]];
+ ['月流失率降到 3%（留存好）',{churn:0.03}]];
 function buildLever(){
  var h='';LEVERS.forEach(function(L,ix){var v=model(S.B,S.pct,Object.assign({},S.A,L[1]));
   h+='<tr'+(ix===0?' style="background:#f2f6ff;font-weight:700"':'')+'><td>'+L[0]+'</td><td class="r">'+money(v.bookM12)+'</td><td class="r '+(v.hitPct>=1?'ok':'bad')+'">'+fmt(v.hitPct,'pct0')+'</td><td class="r">'+v.firstHitTxt+'</td><td class="r">'+money(v.bookYear)+'</td><td class="r '+(v.net>=0?'ok':'bad')+'">'+fmt(v.net,'signed')+'</td></tr>';});
  setHTML('#leverTbl tbody',h);
+}
+function buildPriceTbl(){
+ var h='';[199,299,399,499,699].forEach(function(p){var f=p/S.A.pStd;var A=Object.assign({},S.A,{pStd:p,pPro:S.A.pPro*f,pFlag:S.A.pFlag*f,conv:Math.min(0.9,S.A.conv*accept(p)/accept(S.A.pStd))});var v=model(S.B,S.pct,A);var cur=Math.abs(p-S.A.pStd)<0.5;
+  h+='<tr'+(cur?' style="background:#f2f6ff;font-weight:700"':'')+'><td class="r">'+money(p)+' / '+money(A.pPro)+' / '+money(A.pFlag)+(cur?'（当前）':'')+'</td><td class="r">'+fmt(A.conv,'pct')+'</td><td class="r">'+fmt(v.subsM12,'int')+'</td><td class="r">'+money(v.bookM12)+'</td><td class="r">'+fmt(v.hitPct,'pct0')+'</td><td class="r">'+money(v.bookYear)+'</td><td class="r '+(v.net>=0?'ok':'bad')+'">'+fmt(v.net,'signed')+'</td></tr>';});
+ setHTML('#priceTbl tbody',h);
 }
 function render(){
  var v=model(S.B,S.pct,S.A);
@@ -1732,7 +1754,7 @@ function render(){
  var ps=ITEMS.reduce(function(a,i){return a+(S.pct[i.k]||0);},0);
  if($('#pctSum'))$('#pctSum').textContent=ps.toFixed(0)+'%';
  if($('#pctWarn'))$('#pctWarn').textContent=Math.abs(ps-100)>0.01?'当前合计 '+ps.toFixed(1)+'%，金额按此计算；可点击“按比例归一”':'';
- drawDonut(v);drawMonths(v);drawRev(v);buildRevTbl(v);buildMonthTbl(v);buildSubTbl(v);buildScen();buildLever();
+ drawDonut(v);drawMonths(v);drawRev(v);buildRevTbl(v);buildMonthTbl(v);buildSubTbl(v);buildScen();buildLever();buildPriceTbl();
  if(document.activeElement!==$('#bIn'))$('#bIn').value=S.B;
  if(document.activeElement!==$('#bInNav'))$('#bInNav').value=S.B;
  $('#bRange').value=Math.min(200000,Math.max(5000,S.B));
